@@ -672,7 +672,8 @@
 // 	text-align:justify;
 // }
 
-$yellow: darkslategrey;
+// $yellow: darkslategrey;
+$yellow:#544e66;
 
 @mixin border-radius($radius) {
 	-webkit-border-radius: $radius;
@@ -732,7 +733,8 @@ $yellow: darkslategrey;
 	@include clip-path(polygon(100% 0, 100% 85%, 14% 85%, 0 100%, 0% 60%, 0 0));
 }
 .navbar-light .navbar-nav .nav-link {
-	color: #444343!important;
+	// color: #7f7979!important;
+	color:white;
 	padding-top: 12px!important;
 	padding-bottom: 15px!important;
 	padding-left: 20px!important;
@@ -768,7 +770,7 @@ $yellow: darkslategrey;
 // form
 .heading {
     font-size: 20px;
-	color: #424040;
+	color: #efe8e8;
     font-weight: 600;
 }
 
@@ -1001,7 +1003,8 @@ $yellow: darkslategrey;
 
 .blog-single-content {
     z-index: 999;
-	background-color:rgb(155, 178, 178);
+	// background-color:rgb(155, 178, 178);
+	background: white;
 
 	p, ul li {
 		font-size: 1.05rem;
